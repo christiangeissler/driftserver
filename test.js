@@ -8,4 +8,4 @@ createApp({
             pagetext: 'Welcome to the racingserver!'
         }
     }
-}).mount('#contentbox')
+}).mount('.contentbox')
