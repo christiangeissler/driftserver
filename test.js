@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 
-createApp({
+const app = createApp({
     // component options
     data() {
         return {
@@ -8,4 +8,6 @@ createApp({
             pagetext: 'Welcome to the racingserver!'
         }
     }
-}).mount('.contentbox')
+}).mount('div.contentbox')
+
+console.log(app.config)
