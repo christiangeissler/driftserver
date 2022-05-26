@@ -2,7 +2,7 @@ import { createApp } from 'vue';
 
 alert("Hallo Welt!");
 
-createApp({
+const app = createApp({
     // component options
     data() {
         return {
@@ -10,4 +10,6 @@ createApp({
             pagetext: 'Welcome to the racingserver!'
         }
     }
-}).mount('#main')
+}).mount('div.contentbox')
+
+console.log(app.config)
