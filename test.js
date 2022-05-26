@@ -1,4 +1,5 @@
-import { createApp } from 'vue';
+import { createApp } from 'https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.esm.browser.js'
+//import { createApp } from 'vue';
 
 alert("Hallo Welt!");
 
@@ -10,6 +11,6 @@ const app = createApp({
             pagetext: 'Welcome to the racingserver!'
         }
     }
-}).mount('div.contentbox')
+}).mount('div.main')
 
 console.log(app.config)
