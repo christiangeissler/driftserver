@@ -1,9 +1,9 @@
-﻿body {
+body {
 	margin: 0px;
-	background-color: #000000;
+	background-color: #212529;
 	color: #072151;
 	
-	background-image: url('BGTileableLogo.png');
+	background-image: url('carbon.jpg');
 	background-repeat: repeat;
 	background-position: left top;
 	background-attachment: scroll;

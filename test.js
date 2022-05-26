@@ -1,4 +1,6 @@
-import { createApp } from 'vue'
+import { createApp } from 'vue';
+
+alert("Hallo Welt!");
 
 createApp({
     // component options
@@ -8,4 +10,4 @@ createApp({
             pagetext: 'Welcome to the racingserver!'
         }
     }
-}).mount('#contentbox')
+}).mount('#main')
